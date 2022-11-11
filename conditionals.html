@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        // let br="<br>"
+        // let a=10;
+        // // print=document.write;
+
+        // if(a>9)
+        // {
+        //     document.write("a is greater than 9");
+        // }
+        // else{
+        //     document.write("a is less than 9");
+        // }
+        // document.write("<h1>Conditional Statementd</h1>");
+        // let role= confirm('BOSS ?');
+
+        // if(true)
+        // {
+        //     document.write("true",br);
+        // }
+        // else
+        // {
+        //     document.write("False",br);
+        // }
+
+        // let b=15;
+        // if(b>=20){
+        //     document.write("15 is greater than 20",br);
+
+        // }
+        // else if(b==15){
+        //     document.write("15 is equals to 15",br);
+        // }
+        //  if(b<20){
+        //     document.write("15 is less than 20",br);
+        // }
+
+        // document.write("<h1>LEAP YEAR</h1>")
+
+        // let year=prompt("Enter a Year");
+        // if (isFinite(year)){
+        // // alert(year);
+        // if(year%100==0){
+        //     if(year%400==0){
+        //         document.write(year," is a leap year");
+        //     }
+        //     else{
+        //         document.write(year," not is a leap year");
+        //     }
+        // }  
+        //  else if(year%4==0){
+        //           document.write(year," is a leap year");
+
+        //  }  
+        //  else{
+        //     document.write(year,"Not a leap Year");
+        //  } 
+        // }
+
+        // else{
+        //     alert("Invalid input");
+        // }
+        // let pass= "employee";
+        // let password="password"
+        // let role= confirm("Boss");
+
+        // if (role)
+        // {
+        //     user=prompt("Enter your password");
+        //     if (password==user)
+        //     {
+        //     document.write("<h1>Hello boss!</h1>");
+        //     }
+        //     else{
+        //         alert(" Wrong password, please recheck");
+        //     }
+
+        // }
+
+        // else{
+        //     k=prompt("Hello employee Enter your name");
+
+        //     alert(`hello ${k} enter your password`);
+
+        //     empl=prompt("enter your password");
+        //     if (pass==empl)
+        //     {
+        //     document.write("<h1>"+k+" Login done" );
+        //     }
+        //     else {
+        //         alert(" Wrong password, please Try check");
+        //     }
+
+        // }
+
+        // document.write(`Hai`);
+        // documrnt.write("hello 554+345");
+
+
+        // let day=new Date().getDay();
+        // let print;
+        let day = 1;
+        let print;
+        switch (day) {
+            case 0:
+                print = "Today Mon";
+                break;
+            case 1:
+                print = "Today tues";
+                break;
+            case 2:
+                print = "Today wed";
+                break;
+            case 3:
+                print = "Today Thursday";
+                break;
+            case 4:
+                print = "Today friday";
+                break;
+            case 5:
+                print = "Today saturday";
+                break;
+            case 6:
+                print = "Today sunday";
+                break;
+            default:
+                print = "invalid input";
+
+        }
+        document.write(print, "<br>");
+
+        let year = new Date().getFullYear();
+        let month = new Date().getMonth() +1;
+        // let monthh = month+1;
+        let dayy = new Date().getDate();
+        document.write(dayy + "/" + month + "/" + year);
+
+    </script>
+</body>
+
+</html>

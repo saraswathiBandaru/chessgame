@@ -1,0 +1,31 @@
+
+body{
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-content: center;
+  grid-template-columns: auto auto auto;
+gap:1rem;
+text-align: center;
+overflow: scroll;
+}
+
+ img{
+ width:15rem;
+ height: auto;
+
+}
+#root > div> div{
+ text-align: center;
+}
+div{
+ padding: 0.5rem;
+ background-color: rgb(189, 218, 231);
+ box-shadow: 2px 2px 5px 1px rgba(0,0,0,3);
+ border-radius: 0.5rem;
+}
+p{
+ overflow: hidden;
+height: auto;
+ width: 20rem;
+}

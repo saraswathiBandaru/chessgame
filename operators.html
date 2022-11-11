@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators</title>
+</head>
+<body>
+    <script>
+        document.write("<h1>Operators</h1>");
+        var br= "<br>";
+        var a=10;
+        var b=20;
+        var c=a+b;
+        document.write(a,"+",b,"=",c);
+        document.write("<br>");
+         
+        var a=10;
+        var b=5;
+        var c=a-b;
+        document.write(a,"-",b,"=",c,br);
+        
+        let z=10;
+        let k=20;
+        let l=z*k;
+        document.write(z,"*",k,"=",l);
+        document.write("<br>");
+        z=25;
+        k=5;
+        l=z/k;
+        
+        document.write(z,"/",k,"=",l);
+        document.write("<br>");
+        // console.log(l);
+        document.write(z,"%",k,"=",z%k,br);
+        let m=++z;
+        let n=--k;
+        document.write("PRE INCREMENT OF ++25: ",m,br);
+        document.write("PRE INCREMENT OF --5: ",n,br);
+       a++;
+       document.write(a,br);
+       document.write(a+1,br);
+       document.write(a);
+       document.write("<h1>Assignment Operators</h1>");
+
+    var1 =20;
+    var2= 10;
+    var1+=var2;
+    document.write(" var1 += var2;",br);
+    document.write(var1,br);
+    document.write(" var1 -= var2;",br);
+    var1-=var2;
+    document.write(var2,br);
+    document.write("<h3>Comparision operators</h3>",br);
+    document.write("60>30 ");
+    document.write(60>30,br);
+    document.write("60!==30  ");
+    document.write(60!==30,br);
+    document.write("30 === 30");
+    document.write(30===30,br);
+     let r;
+    document.write(r && 1 && null,br);
+    document.write(1 && null && r,br);
+    document.write(r||2 || 1,br);
+    document.write(null||r||1,br);
+    let user;
+    document.write(user?? "unknown");
+
+
+</script>
+</body>
+</html>

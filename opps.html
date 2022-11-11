@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class person{
+            constructor(_age,_name,_gender){
+        this.age=_age;
+        this.name=_name;
+        this.gender=_gender;
+            }
+
+        getDOB =()=>{
+            return new Date();
+        }    }
+        class student extends person{
+            constructor(_age,_name,_gender,_class,_school){
+                super(_age,_name,_gender);
+                this.class=_class;
+                this.school=_school;
+            }
+            getDOB=()=>{
+                return new Date("wed nov 02 2000");
+            }
+        }
+        const student = new student(10,"wertyu","m","full stack","cs");
+        const person=new person(10,"asdfg","f");
+    </script>
+</body>
+</html>

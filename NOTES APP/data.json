@@ -1,0 +1,167 @@
+[
+    {
+        "name": "Peeled Baby Carrot",
+        "description": "The carrot is a root vegetable, usually orange in colour, though purple, black, red, white, and yellow cultivars exist. They are a domesticated form of the wild carrot, Daucus carota, native to Europe and Southwestern Asia. The plant probably originated in Persia and was originally cultivated for its leaves and seeds.",
+        "image": {
+            "id": "17",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/17/Peeled-Carrots.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/17/conversions/Peeled-Carrots-thumbnail.jpg"
+        },
+        "price": 2.5,
+        "id": 16
+    },
+    {
+        "name": "Cherry",
+        "description": "A cherry is the fruit of many plants of the genus Prunus, and is a fleshy drupe. Commercial cherries are obtained from cultivars of several species, such as the sweet Prunus avium and the sour Prunus cerasus",
+        "image": {
+            "id": "18",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/18/RedCherries.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/18/conversions/RedCherries-thumbnail.jpg"
+        },
+        "price": 2,
+        "id": 17
+    },
+    {
+        "name": "Strawberry",
+        "description": "The garden strawberry is a widely grown hybrid species of the genus Fragaria, collectively known as the strawberries, which are cultivated worldwide for their fruit. The fruit is widely appreciated for its characteristic aroma, bright red color, juicy texture, and sweetness.",
+        "image": {
+            "id": "19",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/19/strawberry.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/19/conversions/strawberry-thumbnail.jpg"
+        },
+        "price": 10,
+        "id": 18
+    },
+    {
+        "name": "Mix Vegetable Platter",
+        "description": "Spinach (Spinacia oleracea) is a leafy green flowering plant native to central and western Asia. It is of the order Caryophyllales, family Amaranthaceae, subfamily Chenopodioideae. Its leaves are a common edible vegetable consumed either fresh.",
+        "image": {
+            "id": "20",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/20/VeggiePlatter.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/20/conversions/VeggiePlatter-thumbnail.jpg"
+        },
+        "price": 4,
+        "id": 19
+    },
+    {
+        "name": "Lemon",
+        "description": "The lemon/lime, Citrus limon Osbeck, is a species of small evergreen tree in the flowering plant family Rutaceae, native to South Asia, primarily North eastern India.",
+        "image": {
+            "id": "21",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/21/Yellow-Limes.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/21/conversions/Yellow-Limes-thumbnail.jpg"
+        },
+        "price": 1.5,
+        "id": 20
+    },
+    {
+        "name": "Signature Salmon",
+        "description": "Salmon is a common food classified as an oily fish with a rich content of protein and omega-3 fatty acids",
+        "image": {
+            "id": "183",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/183/SignatureSalmon_fstp4m.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/183/conversions/SignatureSalmon_fstp4m-thumbnail.jpg"
+        },
+        "price": 4.95,
+        "id": 181
+    },
+    {
+        "name": "Cod Fillet",
+        "description": "Cod is the common name for the demersal fish genus Gadus, belonging to the family Gadidae. Cod is also used as part of the common name for a number of other fish species, and some species suggested to belong to genus Gadus are not called cod.",
+        "image": {
+            "id": "184",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/184/codfillet_u0mti1.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/184/conversions/codfillet_u0mti1-thumbnail.jpg"
+        },
+        "price": 10,
+        "id": 182
+    },
+    {
+        "name": "Swordfish Fillet",
+        "description": "The swordfish meat has a very delicate flavour, meaty and mild. Swordfish, also known as broadbills, is an oily fish similar to tuna, chunky meat without bones.",
+        "image": {
+            "id": "185",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/185/swordfish_smniuv.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/185/conversions/swordfish_smniuv-thumbnail.jpg"
+        },
+        "price": 10,
+        "id": 183
+    },
+    {
+        "name": "Halibut Fillet",
+        "description": "Hippoglossus stenolepis, the Pacific halibut, is a species of righteye flounder. This very large species of flatfish is native to the North Pacific and is fished by commercial fisheries, sport fishers, and subsistence fishers.",
+        "image": {
+            "id": "186",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/186/halibut_jaz7ju.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/186/conversions/halibut_jaz7ju-thumbnail.jpg"
+        },
+        "price": 15,
+        "id": 184
+    },
+    {
+        "name": "Tilapia Fillet",
+        "description": "Tilapia is the common name for nearly a hundred species of cichlid fish from the coelotilapine, coptodonine, heterotilapine, oreochromine, pelmatolapiine and tilapiine tribes, with the economically most important species placed in Coptodonini and Oreochromini.",
+        "image": {
+            "id": "187",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/187/TilapiaFillet_a2urhk.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/187/conversions/TilapiaFillet_a2urhk-thumbnail.jpg"
+        },
+        "price": 7.89,
+        "id": 185
+    },
+    {
+        "name": "Fresh Beef",
+        "description": "Meat is animal flesh that is eaten as food. Humans have hunted and killed animals for meat since prehistoric times. The advent of civilization allowed the domestication of animals such as chickens, sheep, rabbits, pigs and cattle.",
+        "image": {
+            "id": "188",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/188/beef_xkxhnb.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/188/conversions/beef_xkxhnb-thumbnail.jpg"
+        },
+        "price": 6,
+        "id": 186
+    },
+    {
+        "name": "Sliced Turkey Breast",
+        "description": "Meat is animal flesh that is eaten as food. Humans have hunted and killed animals for meat since prehistoric times. The advent of civilization allowed the domestication of animals such as chickens, sheep, rabbits, pigs and cattle.",
+        "image": {
+            "id": "189",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/189/sliced_turkey_breast_szb8jg.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/189/conversions/sliced_turkey_breast_szb8jg-thumbnail.jpg"
+        },
+        "price": 8.5,
+        "id": 187
+    },
+    {
+        "name": "Chicken Thighs",
+        "description": "Meat is animal flesh that is eaten as food. Humans have hunted and killed animals for meat since prehistoric times. The advent of civilization allowed the domestication of animals such as chickens, sheep, rabbits, pigs and cattle.",
+        "image": {
+            "id": "190",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/190/chicken_thigh_yrdfwh.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/190/conversions/chicken_thigh_yrdfwh-thumbnail.jpg"
+        },
+        "price": 7.89,
+        "id": 188
+    },
+    {
+        "name": "Chicken Breast",
+        "description": "Meat is animal flesh that is eaten as food. Humans have hunted and killed animals for meat since prehistoric times. The advent of civilization allowed the domestication of animals such as chickens, sheep, rabbits, pigs and cattle.",
+        "image": {
+            "id": "191",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/191/chicken_brest_ribcxo.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/191/conversions/chicken_brest_ribcxo-thumbnail.jpg"
+        },
+        "price": 9,
+        "id": 189
+    },
+    {
+        "name": "Beef Steak",
+        "description": "Meat is animal flesh that is eaten as food. Humans have hunted and killed animals for meat since prehistoric times. The advent of civilization allowed the domestication of animals such as chickens, sheep, rabbits, pigs and cattle.",
+        "image": {
+            "id": "192",
+            "original": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/192/steak_okxpjo.jpg",
+            "thumbnail": "https://pickbazarlaravel.s3.ap-southeast-1.amazonaws.com/192/conversions/steak_okxpjo-thumbnail.jpg"
+        },
+        "price": 15,
+        "id": 190
+    }
+]

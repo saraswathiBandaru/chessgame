@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var x=2;
+        const promise=new Promise((resolve,reject)=>{
+            if(x==2){
+                resolve((x))
+            }
+            else{
+                reject(new Error("x is not equal to 1"))
+            }
+        })
+        promise
+          .then(e=>e)
+          .then(e=>e+10)
+          .then(e=>console.log(e))
+          .catch(err=>console.log(err));
+    </script>
+</body>
+</html>

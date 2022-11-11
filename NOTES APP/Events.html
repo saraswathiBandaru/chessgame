@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body>
+    <!-- <button>click</button>
+    <button id="submit">Submit</button> -->
+
+    <main>
+        <h1 style="text-align: center;color: purple;">Image Carousel in Js</h1>
+        <img src="" alt="">
+    </main>
+    <p>
+        <button id="prev">Prev</button>
+        <button id="next">Next</button>
+        <button id="mode">Mode</button>
+    </p>
+    <style>
+        body{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        main{
+            margin: auto;
+            width: 50%;
+            height: 50%;
+        }
+        p{
+            margin: auto;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        .darkmode{
+            background-color: cadetblue;
+        }
+
+
+    </style>
+    <script>
+        // let button=document.querySelector('button');
+        // let submit=document.querySelector('#submit');
+        // let body=document.querySelector('body');
+
+        // button.addEventListener('click',myFunction);
+        // function myFunction(){
+        //     alert('Click Event');
+        // }
+        // submit.addEventListener('mouseover',fun1);
+        // // myFunction();
+        // function fun1(){
+        //     submit.style.backgroundColor="green";
+        // }
+    //     button.addEventListener('click',fun2);
+    //     let temp;
+    //     function fun2(){
+    //         temp=prompt('Enter');
+            
+    //     }
+    //     submit.addEventListener('click',colorFun);
+    //    function colorFun(){
+    //         body.style.backgroundColor= temp;
+        // }
+        let prev=document.querySelector("#prev");
+        let next=document.querySelector("#next");
+        let img=document.querySelector("img");
+        let mode=document.querySelector("#mode");
+        let body=document.querySelector("body");
+
+
+     let Imgsrc=["https://tse3.mm.bing.net/th?id=OIP.r1SOq1qw1gxF2--sd-OBVQHaD8&pid=Api&P=0","https://tse3.mm.bing.net/th?id=OIP.o_yxRhRA40oUWzIZA5nwaQHaEo&pid=Api&P=0","https://tse2.mm.bing.net/th?id=OIP.X7Y_MrVN3XhcZLd_djQU4AHaFj&pid=Api&P=0","https://tse3.mm.bing.net/th?id=OIP.LXpJqc5pas0424L_5Svq1wHaEc&pid=Api&P=0","https://tse3.mm.bing.net/th?id=OIP.Bb3mjLpukrTrS7__ceDY7QHaEK&pid=Api&P=0"];
+     img.setAttribute('src',Imgsrc[0]);
+     let check=0;
+     next.addEventListener('click',toNext);
+     prev.addEventListener('click',toPrev);
+
+     function toNext(){
+        if(check<Imgsrc.length){
+            console.log(check);
+            img.setAttribute('src',Imgsrc[check]);
+            check++;
+        }
+        else{
+            check=0;
+        }
+     }
+     function toPrev(){
+        if(check>=1){
+           
+            check--;
+            console.log(check);
+            img.setAttribute('src',Imgsrc[check]);
+        }
+        else{
+            check=Imgsrc.length;
+        }
+     }
+// body.setAttribute('class','darkmode');
+     mode.addEventListener('click',()=>{
+        body.classList.toggle('darkmode');
+     })
+  
+// let i=0;
+// setInterval(toCheck,1000);
+// function toCheck(){
+//     if(i<Imgsrc.length){
+//         img.setAttribute('src',Imgsrc[i]);
+//         i++;
+//     }
+//     if(i==imgsrc.length){
+//         i=0;
+//     }
+//     console.log(new Date().getSeconds());
+// }
+
+
+    </script>
+    
+</body>
+</html>

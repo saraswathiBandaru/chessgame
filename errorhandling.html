@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         k=prompt("enter a string");
+         z=prompt("enter a character");
+        
+        var count=0;
+         if(k!=""&&z!=""){
+         for(let i=0;i<k.length;i++){
+            if(k.charAt(i)==z){
+                count++;
+            }
+           
+           
+           
+         }
+         if(count>0){
+            console.log(z+" is of "+count+" times");
+
+         }
+         else{
+            console.log(z+" is not found")
+        }
+        
+        }
+        else{
+            console.log("please enter a string");
+        }
+       
+        
+
+
+    </script>
+    
+    
+</body>
+</html>

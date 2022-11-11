@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fetch</title>
+    <link rel="stylesheet" href="./fetch.css">
+    
+</head>
+<body>
+    
+       
+    <div id="root">
+
+    </div>
+    
+    <script>
+//         const root=document.getElementById("root");
+//         let page=1;
+//         const fetcdata=()=>{
+    
+//         fetch("https://mock.redq.io/api/products?searchJoin=and&with=type%3Bauthor&limit=30&language=en&page="+page+"&search=type.slug:grocery%3Bstatus:publish")
+//         .then((response)=>response.json())
+//         .then((response)=>{
+//            response.data.forEach(e=>{
+            
+//             console.log(response)
+//             root.insertAdjacentHTML("beforebegin",
+//             `<div>
+//                 <div>
+//                     <img src=${e.image.thumbnail} />
+//                     </div>
+//                     <h3>${e.name}</h3>
+//                     <p>${e.description}</p>
+//                     <h4>${e.price}</h4>
+//                     </div>`)
+//                 });
+//                 let load=document.getElementById("load");
+//   page++;
+    //             if(!load&&response.current_page<response.last_page){
+    // root.insertAdjacentHTML("afterend",
+    // // `<p class="load">
+    // //     // <button id="load">Load more</button>
+    // //     </p>`)
+    // }
+    // load=document.getElementById("load");
+    // load.addEventListener('click',fetcdata)
+
+    //         })
+    //         .catch(e=>console.log(e))
+    //     }  
+    //     fetcdata();
+    //     let body= document.querySelector('body');
+    //     document.addEventListener('scroll',()=>{
+    //         let scrollValue=window.pageYOffset;
+    //         let totalHeight=root.clientHeight;
+    //         const scroll=(scrollValue/totalHeight)*100;
+    //         if(scroll>67&&page<10){
+    //             page++;
+    //             fetcdata()
+    //         }
+    //     })
+
+
+
+
+        x=[2,4,5,[4,34,6],[3,6,2]]
+        y=x.map(e=>{
+            if(e[0]){
+                return e.sort((a,b)=>a-b);
+            }
+            return e;
+        })
+        z=y.sort((a,b)=>{
+            if(a[0] && b[0])return a[0]-b[0];
+            if(a[0] && b[0]==undefined)return a[0]-b;
+            if(a[0] ==undefined && b[0])return a[0]-b;
+            return a-b;
+            
+            
+        })
+
+    </script>
+</body>
+</html>

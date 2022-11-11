@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fetch</title>
+</head>
+
+<body>
+    <div>
+        
+    </div>
+
+    <style>
+        body {
+            width: 99%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h2{
+            font-size: 2rem;
+            font-weight: bolder;
+            color: brown;
+        }
+
+        div {
+            width: 83%;
+            height: 90vh;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto auto;
+            gap: 0.5rem;
+            text-align: center;
+           
+           
+        }
+
+        section {
+            border: 1px dotted black;
+           height: 90%;
+           
+          
+        }
+
+        img {
+            width: 17rem;
+            height: auto;
+        }
+
+        p {
+            text-align: start;
+        }
+
+        #name {
+            font-weight: bold;
+            font-size: 2rem;
+        }
+        button{
+            width: 6.5rem;
+            height: 3rem;
+            border: none;
+            border-radius: 15px;
+            color: white;
+            background-color: green;
+        }
+        #remove{
+            width: 6.5rem;
+            height: 3rem;
+            border: none;
+            border-radius: 15px;
+            color: white;
+            background-color: red;
+
+        }
+    </style>
+
+    <script>
+        var z = document.querySelector('div');
+        var cart
+        
+        fetch("https://res.cloudinary.com/cliqtick/raw/upload/v1666847902/react-class/data_hfnwng.json")
+            .then(y => y.json())
+            .then(y => {
+                y.forEach(e => {
+
+                console.log(e)
+                    z.insertAdjacentHTML("afterbegin",
+                   
+                        `<div> 
+         <section>
+     <img src=${e.image.original} > 
+        <h1>${e.name}</h1>
+        <h3>₹${e.price}</h3>
+        <p>${e.description}</p>
+        <button onclick="Addtocart(${JSON.stringify(e).split('"').join("&quot;")})">Add to Cart</button> 
+        <button id="remove">Remove</button>
+        </section>
+        <div>  `)
+
+
+
+                })
+            })
+         .catch((err)=>console.log(err));
+        
+
+  let load=document.getElementById("load");
+  page++;
+  if(!load&&response.current_page<response.last_page){
+    root.insertAdjacentHTML("afterend",`<div class="load">
+        <button id="load">Load more</button>
+        </div>`)
+    }
+    load=document.getElementById("load");
+    load.addEventListener('click',fetcData)
+
+  
+
+//          const Addtocart=(arg)=>{
+//             console.log(arg);
+//             if(cart.products.length){
+//                 let temp=cart.products.filter(e=>e.id==arg.id);
+//                 if(temp.length){
+//                     cart.total+=arg.price;
+//                     cart.products=cart.products.map(e=>{
+//                         if(e.id==arg.id)
+//                         return {...e,qty:e.qty}
+//                         else{ return e;}
+//                     }
+//                 )
+//                 }
+//                 else{
+//                     cart.products.push({...arg,quantity:1})
+//                     cart.total+=arg.price;
+//                 }
+// }
+// else{
+
+// cart.products.push({...arg,quantity:1});
+// cart.total=arg.price;
+// }
+// console.log(cart);
+//          }
+
+//         var cart={
+        //     totalprice:0,
+        //     products:[]
+        // } 
+    // if(cart.products.length>0){
+
+    //      pass;
+
+    // }
+    // else{
+
+    //     cart.products.push({...arg,quantity:1});
+    //     cart.total=arg.price;
+    // }
+         
+
+    </script>
+
+</body>
+
+</html>

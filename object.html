@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects</title>
+</head>
+<body>
+    <script>
+//         // let check;
+//         let user={}
+//         console.log(typeof(user));
+//         user={name:"Saraswathi",qualification:"B.Tech",Occupation:"Software developer",Company:"Google",id:1234,salary:100000,
+//            check: function(){ 
+//             console.log("Best employee of the year");
+//             console.log(this.name);
+//         },
+//     };
+//     // user={};
+//     user.check();
+
+//     console.log(user.name);
+//     console.log(user["name"]);
+//     // delete user.salary;
+//     console.log(user);
+//     console.log("Company" in user);
+//     // for(let i in user){
+//     //     document.write(user[i],"<br>");
+//     // }
+    
+//     for(let i in user){
+//         document.write(i,": ",user[i],"<br>");
+//     }
+//     let user2 = user;
+//     document.write(user2.salary,"<br>");
+
+//  let newobj = new Object();
+//  document.write(typeof(newobj));
+
+
+//  let array = 
+//  {0:true,1:10,2:null,3:"Saraswathi"};
+//  let fruits={0:"Apple", 1:"Banana",2:"orange",3:"Custuard_apple"};
+//  console.log(typeof(fruits));
+//  console.log(fruits.length);
+//   let fruit=["Apple","Banana","orange","Custuard_apple"];
+ 
+//   fruit[0]="pine_apple";
+//   console.log(fruits);
+//   for(let i in fruits){
+//     console.log(i);
+//   }
+//   let data=["apple",null,12,undefined];
+//   for(let i of data){
+//     console.log(i);
+//   }
+//   for(let i in data){
+//     console.log(i);
+//   }
+//   fruit.pop();
+//   console.log(fruit);
+//   fruit.push("promogranate");
+//   console.log(fruit);
+//   fruit.shift();
+//   fruit.unshift("kiwi");
+
+
+//   for (let k in fruit){
+//     console.log(k);
+//   }
+
+//   for(i=0;i<=(fruit.length-1);i++){
+//     console.log(fruit[i]);
+//   }
+//   console.log(fruit.length);
+
+// let z=isFinite(0);
+// console.log(z);
+
+// let array=[2,4,1,3];
+// console.log(array);
+
+// for(let i=0;i<array.length;i++){
+//   // let a=array[i];
+//   for(
+//     let j=1;j<=array.length;j++){
+//     if(array[j]<array[i]){
+//       let temp=array[i];
+//       array[i]=array[j];
+//       array[j]=temp;
+//     }
+   
+//   }
+//   console.log(array[i]);
+ 
+// }
+
+// let user = {
+//   name: "Developer",
+//   age:25,
+//   isAdmin: true
+// }
+// let king={};
+// let person = {};
+// king=Object.assign(person, user);
+// delete person.isAdmin;
+// console.log(person);
+// console.log(user);
+// console.log(king);
+
+//slice
+let example=["we","are","learning","javascript"];
+// console.log(example.slice(0,3));
+// console.log(example.slice(-1));
+// console.log(example.slice(-2));
+// console.log(example.slice(-1,-3));
+//splice
+// example.splice(3,1,"webdevelopment");
+// console.log(example);
+// example.splice(4,0,"Add","Add");
+// console.log(example);
+// example.splice(5,0,"hai","Add");
+// console.log(example);
+// example.splice(5,1,"hai","Add");
+// console.log(example);
+// let data=[2,7,6,4];
+// console.log(data.sort((a,b)=>{
+// if(a<b) return -1
+// else if(a>b) return 1
+// return 0
+// }));
+
+//sorting an object 
+
+// let users=[{
+//   id:1,
+//   mark:45,
+//   name:"s"
+// },{
+//   id:2,
+//   mark:35,
+//   name:"A"
+// },{
+//   id:3,
+//   mark:45,
+//   name:"C"
+// },{
+//   id:4,
+//   mark:15,
+//   name:"T"
+// }];
+
+// // console.log(check.sort());
+// sortedArray = users.sort((a,b)=>{
+//   let x=a.mark
+//   let y=b.mark
+//   if(x<y) return -1
+//   else if(x>y)return 1
+//   return 0
+// });
+// sortedArray.forEach((e,i,a) => {
+//   console.table(e)
+// });
+//filter
+let each=[4,33,23,45,60,75];
+let x=each.every((e,i)=>e>10);
+console.log(x);
+x=each.some((e,i)=>e>10);
+console.log(x);
+let ex_arr=[4,88,undefined,true,'null',33,NaN,'javascript'];
+let filter_data= ex_arr.filter((e,i)=>e);
+console.log(filter_data);
+console.log(ex_arr.includes('null'));
+console.log(ex_arr.indexOf(33));
+// for of 
+let sum=0;
+for(let i of each){
+  sum+=i;
+}
+console.log(sum);
+  
+//Concat
+
+let a=[1,2,3,4,,45,44];
+let b=[23,45,,343,43434,,4343434];
+b=b.concat(a);
+console.log(b);
+
+//join
+
+console.log(b.join('-'));
+console.log(b.join('*'));
+
+
+</script>
+</body>
+</html>

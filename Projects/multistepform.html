@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multistep</title>
+    <link rel="stylesheet" href="./multistepform.css">
+</head>
+<body>
+    <div>
+    <button id="button1"  onclick="form1()"></button>
+    <hr>
+    <button id="button2"   onclick="form3()"></button>
+</div>
+  
+
+    <form action="" id="form" >
+        <section>
+        <label for="" id="label">First name</label>
+        <input type="text" placeholder="First Name" id="first">
+    </section>
+        <span id="message" style="font-size: 2rem;"></span>
+    <section>
+        <label for="">Second name</label>
+        <input type="text" placeholder="Second Name" id="second">
+    </section>
+    <span id="message" style="font-size: 2rem;"></span>
+      <section>
+        <label for="">Email</label>
+        <input type="text" placeholder="@gmail.com"  id="email
+        ">
+      </section>
+      <span id="message" style="font-size: 2rem;"></span>
+      <section>
+
+        <label for="">phone number</label>
+        <input type="text" placeholder="+91">
+      </section>
+      <span id="message" style="font-size: 2rem;"></span>
+      <section>
+        <label for="">Education</label>
+        <input type="text" placeholder="">
+
+      </section>
+      <span id="message" style="font-size: 2rem;"></span>
+      <section>
+        <label for="">Branch</label>
+        <input type="text">
+      </section>
+      <span id="message" style="font-size: 2rem;"></span>
+      <section>
+        <label for="">Adresss</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+      </section>
+      <span id="message" style="font-size: 2rem;"></span>
+     
+      <input type="submit" id="submit"  value="Next" style="width: 8rem; color: white; background-color: lightskyblue;" >
+       </form>
+       
+       <form action="" id="form2" style="display: none;">
+        <h2 style="text-align: center; font-size:3rem">SkillS Details</h2>
+        <label for="" id="label1">skills:</label>
+       
+         <section style="padding: 10px; display: flex; flex-direction: column;  justify-content: center; align-items: center; width: auto;">
+            <aside>
+            <label for="" id="label2">HTML</label>
+        <input type="checkbox" id="input">
+    </aside> 
+    <aside>
+        <label for="" id="label2">CSS</label>
+        <input type="checkbox" id="input"> 
+    </aside>
+    <aside>
+        <label for="" id="label2">javaScript</label>
+        <input type="checkbox" id="input"> 
+    </aside>
+    <aside>
+        <label for="" id="label2">ReactJs</label>
+        <input type="checkbox" id="input">
+    </aside> 
+    <aside>
+        <label for="" id="label2">SQL</label>
+        <input type="checkbox" id="input">
+    </aside> 
+    <aside>
+        <label for="" id="label2">Python</label>
+        <input type="checkbox" id="input">
+    </aside> 
+    </section>  
+       
+       <label for="">Experience</label>
+       <article contenteditable="" style="border: 3px solid black; width:50%; height: 20vh; font-size: 2rem";></article>
+       
+        <input type="submit" style="width: 10rem; color:white; background-color:cornflowerblue; border:none; border-radius: 15px; cursor: pointer; cursor: pointer;">
+
+       </form>
+    
+    
+         
+    
+    <script src="./multistepform.js"></script>
+</body>
+</html>

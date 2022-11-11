@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+main{
+    width: 55%;
+    height: 94vh;
+    border: 1px solid gray;
+    border-radius: 10px;
+    display: flex;
+    
+}
+#sec1 {
+    
+    width: 50rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 10px;
+}
+#sec1 img{
+    width: 11rem;
+    height: 4rem;
+
+}
+#first{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1.5rem;
+   
+    border: 2px solid red;
+}
+#sec1 ::placeholder {
+font-size: 2rem;
+
+}
+/* #first span{
+    font-size: 1.3rem;
+    color: white;
+    /* background-color: red; */
+    /* border-radius: 50%; */
+   /* display: inline-block; */
+   /* width: 1.5rem;
+   height: auto;
+   text-align: center;
+   width: 50%;
+   border: 1.5px solid pink; */
+   
+
+/* } */ */
+
+#sec1 p button{
+    color: white;
+    background-color: blue;
+    
+    
+    padding: 10px;
+    border: 0;
+}
+#first span{
+    font-size: 1.5rem;
+    color: red;
+    /* width: 50%; */
+}
+/* #first :nth-child(5){
+    font-size: 1.5rem;
+    color: red;
+    /* width: 50%; */
+
+/* } */ */
+#first ion-icon{
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+}
+
+#sec1 :nth-child(5){
+    font-size: 1.8rem;
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+#sec1 :nth-child(8){
+    font-size: 1.5rem;
+    color: red;
+}
+#sec1 :nth-child(9){
+    font-size: 2rem;
+
+}
+#sec1 :nth-child(9){
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#sec1 :nth-child(9) a{
+    text-decoration: none;
+    color: blue;
+    font-size: 1.5rem;
+}
+#sec1 input{
+    border-color: red;
+}
+
+#sec2{
+    width: 32rem;
+    height: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#sec2img{
+    height: 10rem;
+    width: 70%;
+}
+#sec2 p{
+   font-size: 2rem;
+   font-weight: lighter; 
+   
+   width: 70%;
+   text-align: center;
+   color: rgb(101, 84, 84);
+}
+p input{
+    border-color: none;
+}
+#input{
+
+    font-size: 2.3rem;
+    font-weight: bold;
+    border-color: red;
+}
+#sec1 input{
+    height: 3.4rem;
+
+}
+
+#sec1 ::placeholder{
+    padding: 10px;
+}
+#checkbox input{
+    height: auto;
+}
+#last{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#help{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    width: 50rem;
+    height: 100%;
+}
+@media screen and (min-width:767px) and (max-width:1023px){
+    #sec2{
+        display: none;
+    }
+    #sec1{
+        width: 100%;
+    }
+}
+ @media screen and (min-width:375px) and (max-width:767px){
+
+ 
+
+    #sec2{
+        display: none;
+    }
+    #sec1{
+        width: 100%;
+    }
+    #sec1 p{
+        width: 100%;
+    }
+    
+}
+
+header{
+    width:33rem;
+    height: 100%;
+    border: 1px solid green;
+    /* background-color: blue;
+    background-size: 20%; */
+    /* padding: 10px; */
+      box-shadow: 0 1rem 2rem  wheat;
+
+    
+}
+header article{
+    /* border: 20px solid green; */
+    width: 100%;
+    height: 20vh;
+    background-color: blue;
+    position: relative;
+ 
+}
+aside{ 
+    height: 45vh ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 3rem ; */
+
+
+}
+h1{
+    font-size: 2rem;
+}
+#id{
+    font-size: 10rem;
+    text-align: center;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    top: 5rem;
+    left: 32%;
+    background-color: white;
+}
+aside ul li{
+    font-size: 1.7rem;
+    display: flex;
+    gap: 1rem;
+}
+aside ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+    width: auto;
+    height: 20vh;
+
+}
+aside{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+    gap: 3rem;
+
+
+}

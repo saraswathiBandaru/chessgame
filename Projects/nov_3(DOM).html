@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const root=document.getElementById('root');
+        fetch("")
+        .then(response=>response.json())
+        .then(res=>{
+            root.style.dispaly="grid";
+            root.style.gridTemplateColumns="repeat(4,1fr)";
+            root.style.gap="1rem";
+            res.forEach(element=>{
+                const container=document.createElement('div');
+                const img=document.createElement("img");
+                const flexcontainer=document.createElement('div');
+                const name=document.createElement("p");
+                const price=document.createElement("p");
+                const desc=document.createElement("p");
+                img.setAttribute('src',element.image.thumbnail);
+                name.innerText=element.name;
+                desc.innerText=element.description;
+                price.innertext=element.price;
+                flexcontainer.style.dispaly="flex";
+                flexcontainer.style.justifyContent="space-between";
+                container.setAttribute('date-id',element.id);
+
+                container.appendChild(img);
+                container.appendChild(flexcontainer);
+                container.appendChild(desc);
+                flexcontainer.appendChild(name);
+                flexcontainer.appendChild(price);
+
+                root.appendChild(container);
+
+
+            });
+        })
+        .catch(e=>console.log(e))
+    </script>
+</body>
+</html>

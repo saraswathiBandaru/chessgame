@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+            }
+            button{
+                width:6rem;
+                height: 2rem;
+                margin: .5rem;
+                border-radius: 10px 10px;
+            }
+       
+        .flex{
+            display: flex;
+        justify-content: center;
+    align-items: center;        }
+    .heading{
+        font-size: 2rem;
+        text-decoration: under red;
+    }
+    .start{
+        background-color: green;
+        color: white;
+       
+        border: none;
+    }
+    .stop{
+    
+        background-color: red;
+        color: white;
+       
+        border: none;
+    }
+    .reset{
+        background: linear-gradient(to bottom, red,green);
+        color: white;
+       
+        border: none;
+    }
+    div p{
+        font-size: 2rem;
+    }
+    </style>
+</head>
+<body>
+    <!-- <article>
+        <p>00:00:00:00</p>
+    </article>
+    <section>
+        <button>Start</button>
+        <button style="border-radius: 50%; background-color:red;">Stop</button>
+        <button>Reset</button>
+    </section> -->
+
+    <p class="heading">Stopwatch</p>
+    <div class="flex">
+        <p class="time" id="hh">00</p>
+        <p>:</p>
+        <p class="time" id="mm">00</p>
+        <p>:</p>
+        <p class="time" id="ss">00</p>
+        <p>:</p>
+        <p class="time" id="ms">00</p>
+       
+    </div>
+
+    <div class="flex">
+        <button class="button start">start</button>
+        <button class="button stop">stop</button>
+        <button class="button reset">Reset</button>
+    </div>
+    <script>
+       const hh=document.getElementById("hh");
+       const mm=document.getElementById("mm");
+       const ss=document.getElementById("ss");
+       const ms=document.getElementById("ms");
+
+       let time=0;
+
+       let interval;
+       const start=()=>{
+           
+       }
+       const stop=()=>{
+        clearInterval(interval)
+       }
+       const reset=()=>{
+        time=0;
+       }
+       const updateUI=(...arg)=>{
+
+       }
+       
+       
+    </script>
+</body>
+</html>

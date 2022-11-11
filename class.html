@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <script>
+        class vehicle{
+            constructor (wheels,speed,time){
+                this.wheels=wheels;
+                this.speed=speed;
+                this.usedTime=time
+            }      
+          
+          getDistance(){
+              this.distanceTravelled=this.speed*this.usedTime
+          }
+          set setModel(arg){
+            this.model=arg;
+          }
+          get getModel(){
+            return this.model;
+          }
+        }
+const bike=new vehicle();
+bike.getDistance(20,200);
+console.log(bike.distanceTravelled);
+console.log(bike.getModel);
+bike.setModel="hunter";
+console.log(bike.getModel);
+
+    </script>
+</body>
+</html>
